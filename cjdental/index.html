@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--jquery 라이브러리-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!--swiper 라이브러리-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    <script src="js/common.js"></script>
+    <title>참조은치과</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h1 class="logo"><a href="index.html"><span class="blind">참조은치과</span></a></h1>
+            <nav class="gnb">
+                <button class="gnb_open"><span class="blind">메뉴열기</span></button>
+                <div class="gnb_wrap">
+                    <div class="gnb_util">
+                        <div class="search">
+                            <button class="search_open"><span class="blind">검색</span></button>
+                        </div><!-- //search -->
+                        <div class="lang">
+                            <button class="lang_open"><span class="blind">KR</span></button>
+                        </div><!-- //lang -->
+                    </div><!-- //gnb_util -->
+                    <ul class="depth1">
+                        <li>
+                            <a href="#"><span>병원소개</span></a>
+                            <ul class="depth2">
+                                <li><a href="#"><span>인삿말</span></a></li>
+                                <li><a href="#"><span>고객과의 약속</span></a></li>
+                                <li><a href="#"><span>지역사회활동</span></a></li>
+                                <li><a href="#"><span>참조은시스템</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span>의료진소개</span></a>
+                            <ul class="depth2">
+                                <li><a href="#"><span>청주점</span></a></li>
+                                <li><a href="#"><span>천안점</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span>진료안내</span></a>
+                            <ul class="depth2">
+                                <li><a href="#"><span>진료과정</span></a></li>
+                                <li><a href="#"><span>진료과목 안내</span></a></li>
+                                <li><a href="#"><span>진료시간 안내</span></a></li>
+                                <li><a href="#"><span>의료보수표</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span>병원소식</span></a>
+                            <ul class="depth2">
+                                <li><a href="#"><span>참조은의 노력</span></a></li>
+                                <li><a href="#"><span>미디어센터</span></a></li>
+                                <li><a href="#"><span>병원 24시</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><span>공지사항</span></a>
+                            <ul class="depth2">
+                                <li><a href="#"><span>참조은뉴스</span></a></li>
+                                <li><a href="#"><span>채용공지</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button class="gnb_close"><span class="blind">메뉴닫기</span></button>
+                </div><!-- //gnb_wrap -->
+                <div class="gnb_bg"></div>
+            </nav><!-- //gnb -->
+            <div class="util">
+                <div class="search">
+                    <button class="search_open"><span class="blind">검색</span></button>
+                </div>
+                <div class="lang">
+                    <button class="lang_open"><span class="blind">KR</span></button>
+                </div>
+            </div><!-- //util -->
+        </header>
+        <main class="container">
+            <section class="section fp-auto-height-responsive visual">
+                <h2 class="blind">visual</h2>
+                <div class="swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="photo"><img src="images/main/visual01.jpg" alt=""></div>
+                            <div class="txt_wrap">
+                                <div class="wrapper">
+                                    <div class="txt"><p>늘 가까운 곳에서<br>참조은치과입니다</p></div>
+                                </div><!-- //wrapper -->
+                            </div><!-- //txt_wrap -->
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="photo"><img src="images/main/visual02.jpg" alt=""></div>
+                            <div class="txt_wrap">
+                                <div class="wrapper">
+                                    <div class="txt"><p>아름다운 미소<br>참조은치과에서 시작하세요</p></div>
+                                </div><!-- //wrapper -->
+                            </div><!-- //txt_wrap -->
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="photo"><img src="images/main/visual03.jpg" alt=""></div>
+                            <div class="txt_wrap">
+                                <div class="wrapper">
+                                    <div class="txt"><p>믿을 수 있는 치과<br>참조은에서 만나보세요</p></div>
+                                </div>
+                            </div>
+                        </li> <!-- 팝업 요소들 (div로 해도 상관없음)-->
+                    </ul><!-- //swiper-wrapper -->
+                    <div class="paging"></div>
+                </div><!-- //swiper -->
+                <div class="ctrl_wrap">
+                    <button class="btn_prev"><span class="blind">이전팝업보기</span></button>
+                    <button class="btn_next"><span class="blind">다음팝업보기</span></button>
+                </div><!-- //ctrl_wrap -->
+            </section><!-- //visual -->
+            <section class="merit">
+                <div class="wrapper">
+                    <div class="tit">
+                        <h2>치과 그 이상의 가치, 참조은치과</h2>
+                        <p>전문 의료진과 첨단 시스템으로 <br>처음부터 끝까지 믿을 수 있는 치과 진료를 제공합니다</p>
+                    </div><!-- //tit -->
+                    <div class="list">
+                        <ul>
+                            <li class="list01">
+                                <span>SYSTEM</span>
+                                <p class="txt01">풍부한 임상경험을 통한 체계적인 진료 서비스, 병원 자체 기공소를 통한 보철 서비스, 그리고 사후 관리 서비스, <br>이처럼 참조은치과병원은 종합적인 치과 진료서비스가 준비되어 있습니다</p>
+                            </li>
+                            <li class="list02">
+                                <span>EMPLOYEE</span>
+                                <p class="txt02">최적의 진료를 위해 의료진 협진과 체계적인 교육이 이뤄지고 있습니다. <br>전문 인력으로 구성된 참조은치과병원이 안전하고 편안한 진료를 약속드립니다</p>
+                            </li>
+                            <li class="list03">
+                                <span>VOLUNTEER</span>
+                                <p class="txt03">참조은치과병원은 신뢰와 봉사를 바탕으로 지속적인 사회공헌활동을 이어가고 있습니다. <br>그리고 문화센터를 통해 지역주민과 소통하는 문화공간을 만들어가고 있습니다</p>
+                            </li>
+                        </ul>
+                    </div><!-- //list -->
+                </div><!-- //wrapper -->
+            </section><!-- //merit -->
+            <section class="doctor">
+                <div class="wrapper">
+                    <div class="tit">
+                        <h2>환한 미소를 함께 만듭니다</h2>
+                        <p>정확한 진단과 친절한 상담, 참조은치과의 의료진이 함께합니다</p>
+                    </div><!-- //tit -->
+                    <div data-aos="fade-up" class="profile">
+                        <div class="photo">
+                            <img src="images/main/doctor01.jpg" alt="">
+                            <div class="sub_profile">
+                                <div class="name">
+                                    <h3>대표원장</h3>
+                                    <span>김00</span>
+                                </div><!-- //name -->
+                                <div class="more"><a href="#"><span class="blind">더보기</span></a></div>
+                            </div><!-- //sub_profile -->
+                        </div><!-- //photo -->
+                        <div class="side">
+                            <div class="name">
+                                <h3>대표원장</h3>
+                                <span>김OO</span>
+                            </div><!-- //name -->
+                            <div class="sub_tit">
+                                <span>더 나은 내일을 위한 진료</span>
+                            </div><!-- //sub_tit -->
+                            <div class="work">
+                                <strong>진료과목</strong>
+                                <ul>
+                                    <li>임플란트, 심미보철</li>
+                                </ul>
+                            </div><!-- //work -->
+                            <div class="spec">
+                                <strong>약력</strong>
+                                <ul class="txt01">
+                                    <li>치과보철과 전문의</li>
+                                    <li>OO대학교 치과대학 졸업</li>
+                                    <li>OO대학교 치과대학부속병원 보철과 인턴, 레지던트 수료</li>
+                                    <li>OO대학교 치과대학대학원 보철학 석사, 박사</li>
+                                    <li>대한치과보철학회 대상수상</li>
+                                </ul>
+                                <ul class="txt02">
+                                    <li>대한임플란트학회 우수발표상, 정회원</li>
+                                    <li>대한심미치과학회 정회원</li>
+                                    <li>대한치과턱관절기능교합학회 정회원</li>
+                                    <li>ICOI(국제임플란트학회) 증례발표</li>
+                                    <li>KAO(대한인공치아골유착학회) 증례발표</li>
+                                </ul>
+                            </div><!-- //spec -->
+                            <div class="more">
+                                <a href="#"><span class="blind">더보기</span></a>
+                            </div><!-- //more -->
+                        </div><!-- //side -->
+                    </div><!-- //profile -->
+                </div><!-- //wrapper -->
+            </section><!-- //doctor -->
+            <section class="service">
+                <div class="tit">
+                    <h2>진료안내</h2>
+                    <p>정확한 진단과 친절한 상담, 참조은치과의 의료진이 함께합니다.</p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li class="list01">
+                            <a href="#">
+                                <div class="photo"><img src="images/main/service01.jpg" alt=""></div>
+                                <div class="txt">
+                                    <h3>임플란트</h3>
+                                    <p>발치즉시임플란트, 앞니심미임플란트 </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list02">
+                            <a href="#">
+                                <div class="photo"><img src="images/main/service02.jpg" alt=""></div>
+                                <div class="txt">
+                                    <h3>심미보철</h3>
+                                    <p>지르코니아, 라미네이트, 앞니재성형</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list03">
+                            <a href="#">
+                                <div class="photo"><img src="images/main/service03.jpg" alt=""></div>
+                                <div class="txt">
+                                    <h3>소아 · 청소년</h3>
+                                    <p>수면웃음가스치료, 앞니치료, 어금니치료</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list04">
+                            <a href="#">
+                                <div class="photo"><img src="images/main/service04.jpg" alt=""> </div>
+                                <div class="txt">
+                                    <h3>치아교정</h3>
+                                    <p>2D교정, 개방교합, 과개교합(옥니), 덧니</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- //list -->
+            </section><!-- //treat -->
+            <section class="info">
+                <div class="wrapper">
+                    <h2 class="blind">찾아오시는 길</h2>
+                    <div class="inner">
+                        <div class="map">   
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.6860870359324!2d127.48163387628992!3d36.609868778404625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35652615c32e7657%3A0xaacfefbae66b798c!2z7LC47KGw7J2A7LmY6rO867OR7JuQ!5e0!3m2!1sko!2skr!4v1751849899037!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div><!-- //map -->
+                        <div class="txt">
+                            <div class="location">
+                                <h3>정성과 전문성을 담은 공간, 참조은치과로 안내합니다.</h3>
+                                <p>충북 청주시 서원구 청남로 1990(분평동 1235)</p>
+                                <p>충남 천안시 서북구 불당 21로 67-8(불당동 1537-2) 정석프라자 4차 6층</p>
+                            </div><!-- //location -->
+                            <div class="book">
+                                <a href="#"><span>진료상담 · 예약</span></a>
+                                <a href="#"><span>공지사항</span></a>
+                            </div><!-- //book -->
+                            <div class="time">
+                                <h3>진료시간</h3>
+                                <div class="hour">
+                                    <p>
+                                        평일 : AM 09:30 ~ PM 07:00<br>
+                                        토요일 : AM 09:00 ~ PM 02:00<br>
+                                        점심시간 : PM 12:30 ~ PM 14:00<br>
+                                        <br>
+                                        일요일 및 공휴일 휴진
+                                    </p>
+                                </div><!-- //hour -->
+                            </div><!-- //time -->
+                        </div><!-- //txt -->
+                    </div><!-- //inner -->
+                </div><!-- //wrapper -->
+            </section><!-- //info -->
+        </main>
+        <footer>
+            <div class="wrapper">
+                <div class="f_nav">
+                    <ul>
+                        <li><a href="#">입사지원서 다운로드</a></li>
+                        <li><a href="#">개인정보 취급방침</a></li>
+                        <li><a href="#">홈페이지 이용약관</a></li>
+                    </ul>
+                </div><!-- //f_nav -->
+                <div class="f_info">
+                    <div class="cheongju">
+                        <p>청주점</p>
+                        <span>사업자등록번호 : 301-32-13020</span>
+                        <span>대표자 : 신용문</span>
+                        <address>주소 : 충북 청주시 서원구 청남로 1990(분평동 1235)</address>
+                        <span><strong>TEL</strong> 043-296-3500</span>
+                        <span><strong>Fax</strong> 043-296-3504</span>
+                    </div>
+                    <div class="cheonan">
+                        <p>천안점</p>
+                        <span>사업자등록번호 : 312-32-22664</span>
+                        <span>대표자 : 백기현 </span>
+                        <address>주소 : 충남 천안시 서북구 불당 21로 67-8(불당동 1537-2) 정석프라자 4차 6층</address>
+                        <span><strong>TEL</strong> 041-417-3500</span>
+                        <span><strong>Fax</strong> 041-417-3504</span>
+                    </div>
+                </div><!-- //f_info -->
+                <div class="copyright">COPYRIGHT ⓒCHAMJOEUN HOSPITAL, All Rights Reserved.</div>
+            </div><!-- //wrapper -->
+        </footer>
+    </div><!-- //wrap -->
+</body>
+</html>

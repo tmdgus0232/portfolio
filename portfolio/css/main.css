@@ -1,0 +1,237 @@
+@import url(default.css);
+@import url(font.css);
+@import url(common.css);
+@import url(layout.css);
+.sec01 {
+    color: var(--point-color);
+}
+.sec01 .top {
+    display: flex;
+    justify-content: space-between;
+}
+.sec01 .top .tit {
+    width: 702px;
+    height: 143px;
+    overflow: hidden;
+}
+.sec01 .top .tit img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec01 .top span {
+    font-size: 24px;
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
+}
+.sec01 .btm {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 524px;
+    border-bottom: 1px solid var(--point-color);
+}
+.sec01 .btm h2 {
+    margin: 0 0 10px 10px;
+    font-size: 40px;
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
+}
+.sec01 .btm span {
+    margin: 0 10px 10px 0;
+    font-size: 24px;
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
+    text-align: right;
+}
+/* .sec02 h2 {
+    font-size: 60px;
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
+    color: var(--point-color);
+    margin-bottom: 60px;
+} */
+.sec02 .tit {
+    width: 262px;
+    height: 60px;
+    margin-bottom: 60px;
+}
+.sec02 .tit img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec02 .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec02 .profile .side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+    padding: 56px 100px 55px 0;
+    border-right: 1px solid var(--point-color);
+}
+.sec02 .profile .side .photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.sec02 .profile .side .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec02 .profile .side h3 {
+    font-size: 32px;
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
+    color: var(--point-color);
+    margin-bottom: 20px;
+}
+.sec02 .profile .side h3 span {
+    font-size: 30px;
+    font-family: 'Pretendard';
+}
+.sec02 .profile .side span {
+    font-family: 'Pretendard';
+    font-size: 24px;
+}
+.sec02 .profile .spec {
+    padding: 50px 0;
+}
+.sec02 .profile .spec .inner {
+    display: flex;
+    margin-bottom: 54px;
+}
+.sec02 .profile .spec .inner .edu {
+    margin-right: 120px;
+}
+.sec02 .profile .spec .inner .edu h3 {
+    font-size: 36px;
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
+    color: var(--point-color);
+    margin-bottom: 10px;
+}
+.sec02 .profile .spec .inner .edu ul li {
+    margin-bottom: 10px;
+    font-family: 'Pretendard';
+    font-size: 24px;
+}
+.sec02 .profile .spec .inner .career h3 {
+    font-size: 36px;
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
+    color: var(--point-color);
+    margin-bottom: 10px;
+}
+.sec02 .profile .spec .inner .career ul li {
+    margin-bottom: 10px;
+    font-family: 'Pretendard';
+    font-size: 24px;
+}
+.sec02 .profile .spec .skill h3 {
+    font-size: 36px;
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
+    color: var(--point-color);
+    margin-bottom: 10px;
+}
+.sec02 .profile .spec .skill ul {
+    display: flex;
+    gap: 20px;
+}
+.sec02 .profile .spec .skill ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.sec02 .profile .spec .skill ul li img {
+    margin-top: 7px;
+}
+/* .sec03 .wrapper {
+
+} */
+.sec03 .project{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+.sec03 .project .tit {
+    width: 269px;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 150px;
+}
+.sec03 .project .tit img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sec03 .project ul {
+    width: calc(100% - 353px);
+    border-left: 1px solid var(--point-color);
+}
+.sec03 .project ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 33.33vh;
+    padding: 0 150px;
+    border-bottom: 1px solid var(--point-color);
+    transition: 0.5s;
+}
+.sec03 .project ul li:hover {
+    background-color: var(--point-color);
+}
+.sec03 .project ul li:last-child {
+    border-bottom: none;
+}
+.sec03 .project ul li .name {
+    display: inline-block;
+    /* font-family: 'Pretendard'; */
+    font-size: 100px;
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
+    color: var(--point-color);
+    transition: transform 0.5s ease;
+}
+.sec03 .project ul li:hover .name {
+    color: #fff;
+    transform: translateX(10px);
+}
+.sec03 .project ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: var(--point-color);
+    border-radius: 50%;
+    margin-right: 150px;
+    transition: 0.5s;
+}
+.sec03 .project ul li:hover a {
+    background-color: #fff;
+}
+.sec03 .project ul li a span {
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_12_35' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='60' height='60'%3E%3Crect width='60' height='60' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_12_35)'%3E%3Cpath d='M40.4375 32.5H10V27.5H40.4375L26.4375 13.5L30 10L50 30L30 50L26.4375 46.5L40.4375 32.5Z' fill='white'/%3E%3C/g%3E%3C/svg%3E%0A");
+    transition: 0.5s;
+}
+.sec03 .project ul li:hover a span {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='mask0_24_51' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='60' height='60'%3E%3Crect width='60' height='60' fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_24_51)'%3E%3Cpath d='M40.4375 32.5H10V27.5H40.4375L26.4375 13.5L30 10L50 30L30 50L26.4375 46.5L40.4375 32.5Z' fill='%23FFB915'/%3E%3C/g%3E%3C/svg%3E%0A");
+}
