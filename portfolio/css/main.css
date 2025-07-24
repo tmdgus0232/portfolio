@@ -1,8 +1,9 @@
 @import url(default.css);
 @import url(font.css);
 @import url(common.css);
-@import url(layout.css);
 .sec01 {
+    font-weight: var(--bold-weight);
+    line-height: var(--tit-line-height);
     color: var(--point-color);
 }
 .sec01 .top {
@@ -10,9 +11,9 @@
     justify-content: space-between;
 }
 .sec01 .top .tit {
+    overflow: hidden;
     width: 702px;
     height: 143px;
-    overflow: hidden;
 }
 .sec01 .top .tit img {
     width: 100%;
@@ -21,37 +22,24 @@
 }
 .sec01 .top span {
     font-size: 24px;
-    font-weight: var(--bold-weight);
-    line-height: var(--tit-line-height);
 }
 .sec01 .btm {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-top: 524px;
+    padding: 10px 10px;
     border-bottom: 1px solid var(--point-color);
 }
 .sec01 .btm h2 {
-    margin: 0 0 10px 10px;
     font-size: 40px;
-    font-weight: var(--bold-weight);
-    line-height: var(--tit-line-height);
 }
 .sec01 .btm span {
-    margin: 0 10px 10px 0;
     font-size: 24px;
-    font-weight: var(--bold-weight);
-    line-height: var(--tit-line-height);
     text-align: right;
 }
-/* .sec02 h2 {
-    font-size: 60px;
-    font-weight: var(--bold-weight);
-    line-height: var(--tit-line-height);
-    color: var(--point-color);
-    margin-bottom: 60px;
-} */
 .sec02 .tit {
+    overflow: hidden;
     width: 262px;
     height: 60px;
     margin-bottom: 60px;
@@ -75,11 +63,11 @@
     border-right: 1px solid var(--point-color);
 }
 .sec02 .profile .side .photo {
+    overflow: hidden;
     width: 350px;
     height: 350px;
-    border-radius: 50%;
-    overflow: hidden;
     margin-bottom: 30px;
+    border-radius: 50%;
 }
 .sec02 .profile .side .photo img {
     width: 100%;
@@ -87,22 +75,15 @@
     object-fit: cover;
 }
 .sec02 .profile .side h3 {
-    font-size: 32px;
+    margin-bottom: 10px;
+    font-size: 30px;
     font-weight: var(--bold-weight);
     line-height: var(--tit-line-height);
     color: var(--point-color);
-    margin-bottom: 20px;
-}
-.sec02 .profile .side h3 span {
-    font-size: 30px;
-    font-family: 'Pretendard';
 }
 .sec02 .profile .side span {
     font-family: 'Pretendard';
     font-size: 24px;
-}
-.sec02 .profile .spec {
-    padding: 50px 0;
 }
 .sec02 .profile .spec .inner {
     display: flex;
@@ -112,11 +93,11 @@
     margin-right: 120px;
 }
 .sec02 .profile .spec .inner .edu h3 {
+    margin-bottom: 10px;
     font-size: 36px;
     font-weight: var(--bold-weight);
     line-height: var(--tit-line-height);
     color: var(--point-color);
-    margin-bottom: 10px;
 }
 .sec02 .profile .spec .inner .edu ul li {
     margin-bottom: 10px;
@@ -124,11 +105,11 @@
     font-size: 24px;
 }
 .sec02 .profile .spec .inner .career h3 {
+    margin-bottom: 10px;
     font-size: 36px;
     font-weight: var(--bold-weight);
     line-height: var(--tit-line-height);
     color: var(--point-color);
-    margin-bottom: 10px;
 }
 .sec02 .profile .spec .inner .career ul li {
     margin-bottom: 10px;
@@ -136,11 +117,11 @@
     font-size: 24px;
 }
 .sec02 .profile .spec .skill h3 {
+    margin-bottom: 10px;
     font-size: 36px;
     font-weight: var(--bold-weight);
     line-height: var(--tit-line-height);
     color: var(--point-color);
-    margin-bottom: 10px;
 }
 .sec02 .profile .spec .skill ul {
     display: flex;
@@ -152,15 +133,12 @@
     align-items: center;
     width: 100px;
     height: 100px;
-    background-color: #fff;
     border-radius: 20px;
+    background-color: #fff;
 }
 .sec02 .profile .spec .skill ul li img {
     margin-top: 7px;
 }
-/* .sec03 .wrapper {
-
-} */
 .sec03 .project{
     display: flex;
     justify-content: space-between;
@@ -168,9 +146,9 @@
     height: 100vh;
 }
 .sec03 .project .tit {
+    overflow: hidden;
     width: 269px;
     height: 60px;
-    overflow: hidden;
     margin-top: 150px;
 }
 .sec03 .project .tit img {
@@ -179,7 +157,7 @@
     object-fit: cover;
 }
 .sec03 .project ul {
-    width: calc(100% - 353px);
+    width: calc(100% - 387px);
     border-left: 1px solid var(--point-color);
 }
 .sec03 .project ul li {
@@ -197,16 +175,14 @@
 .sec03 .project ul li:last-child {
     border-bottom: none;
 }
-.sec03 .project ul li .name {
-    display: inline-block;
-    /* font-family: 'Pretendard'; */
+.sec03 .project ul li h3 {
     font-size: 100px;
     font-weight: var(--bold-weight);
     line-height: var(--tit-line-height);
     color: var(--point-color);
     transition: transform 0.5s ease;
 }
-.sec03 .project ul li:hover .name {
+.sec03 .project ul li:hover h3 {
     color: #fff;
     transform: translateX(10px);
 }
@@ -216,9 +192,9 @@
     align-items: center;
     width: 100px;
     height: 100px;
-    background-color: var(--point-color);
-    border-radius: 50%;
     margin-right: 150px;
+    border-radius: 50%;
+    background-color: var(--point-color);
     transition: 0.5s;
 }
 .sec03 .project ul li:hover a {
